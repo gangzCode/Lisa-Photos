@@ -1,0 +1,52 @@
+{
+  "name": "lisa-photos",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^3.5.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/lab": "^5.0.0-alpha.170",
+    "@mui/material": "^5.15.17",
+    "@mui/x-date-pickers": "^7.3.1",
+    "@stripe/react-stripe-js": "^2.7.1",
+    "@stripe/stripe-js": "^3.4.0",
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "currency.js": "^2.0.4",
+    "dayjs": "^1.11.10",
+    "file-saver": "^2.0.5",
+    "iron-session": "^8.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "jszip": "^3.10.1",
+    "mongodb": "^6.5.0",
+    "next": "^14.1.4",
+    "nodemailer": "^6.9.13",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-email-validator": "^1.0.2",
+    "react-step-builder": "^3.0.6",
+    "simple-react-validator": "^1.6.2",
+    "stripe": "^15.5.0",
+    "sweetalert2": "^11.10.8"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
